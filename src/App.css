@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
-}
+.navbar-brand img {
+  max-width: 30vw; }
+  .navbar-brand img:active {
+    transform: scale(0.95); }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.bg-main {
+  background-color: #2990c7; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.viewscolor {
+  color: #f0f0f0; }
+  .viewscolor:hover {
+    transform: scale(1.15);
+    transition: transform 0.7s;
+    color: #f0f0f0; }
+
+ul li {
+  padding: 0 15px; }
+  ul li a {
+    color: #142257;
+    font-size: 1.5em;
+    text-align: center; }
+
+.navbar-toggler {
+  border-color: #142257; }
+
+.navbar-toggler-icon {
+  color: #142257; }
+
+
+
+
+  body{
+    background-color: rgb(30, 30, 97);
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .divAlert {
+    color: white;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 3em;
   }
-}
+
+  .divProductos{
+    padding: 100px;
+    background-color: #7086d4;
+    color: #142257;
+  }
