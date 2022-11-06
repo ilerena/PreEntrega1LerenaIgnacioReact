@@ -1,10 +1,11 @@
-import '../../src/App.css';
+import '../App.css';
+import Productos from './Productos'
 
-const ItemListConteiner = (props) => {
+const ItemListConteiner = () => {
     return (
-        <div className="divProductos">
-            {props.mensaje}
-        </div>
+        <>
+        <Productos />
+        </>
     )
 }
 

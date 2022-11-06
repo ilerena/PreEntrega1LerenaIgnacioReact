@@ -8,7 +8,7 @@ function App() {
     <>
       <NavBar/>
       <Body/>
-      <ItemListConteiner mensaje="Producto 1"/> 
+      <ItemListConteiner /> 
     </>
   );
 }
